@@ -1,15 +1,16 @@
 html {
-  font-family: helvetica, sans-serif;
+  font-family: 'Gruppo', cursive, lato, sans-serif;
   font-size: 18px; }
 
 h1 {
-  font-family: 'BauerBodoniW01-BoldDisp', georgia, serif;
+  font-family: 'Gruppo', cursive, lato, sans-serif;
   font-size: 2rem;
   color: #fff;
   margin: 0;
   padding: 0.75em 0.25em;
   background: #2c2c2c;
-  line-height: 1.1em; }
+  line-height: 1.1em; 
+  linear-gradient(to bottom, #cedbe9 0%,#aac5de 17%,#6199c7 50%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%);}
 
 ul {
   padding: 0; }
@@ -21,7 +22,7 @@ li {
   position: relative; }
 
 li:focus {
-  border: 10px solid blue; }
+  border: 10px solid #6699cc;; }
 
 span {
   position: absolute;
