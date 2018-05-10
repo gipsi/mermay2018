@@ -266,7 +266,7 @@ li {
   position: relative; }
 
 li:focus {
-  border: 10px solid #1a001a; }
+  border: 10px solid #808080; }
 
 span {
   position: absolute;
