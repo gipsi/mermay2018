@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive grid</title>
+
+<link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet">
+<!--
+<link rel="stylesheet" href="style.css">
+-->
+<style>
+html {
+  font-family: 'Gruppo', cursive, lato, sans-serif;
+  font-size: 12px;
+  background: #6699cc;
+  background: linear-gradient(to bottom, #f6e6b4 0%,#ed9017 100%);  }
+
+ul {
+  font-family: 'Gruppo', cursive, lato, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  background: #26558b;
+  list-style-type: none;
+  background: linear-gradient(to bottom, #cedbe9 0%,#aac5de 17%,#6199c7 50%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%); 
+  }
+  
+  li {
+  padding: 1em;
+  background: #F9423A;
+}
+  li:nth-child(3),
+  li:nth-child(4),
+  li:nth-child(7), 
+  li:nth-child(10),
+  li:nth-child(14),
+  li:nth-child(16),
+  li:nth-child(32){
+  background: #FF9124;
+}
+  li:nth-child(3) {
+	grid-column: span 2;  
+}
+  li:nth-child(4) {
+	grid-row: span 2;  
+  }	
+  li:nth-child(7) {
+	grid-column: span 2;
+    grid-row: span 2;	
+  }
+    li:nth-child(10) {
+	grid-column: span 2;  
+}
+  li:nth-child(14) {
+    grid-row: span 2;	
+  }
+    li:nth-child(16) {
+	grid-column: span 2;	
+    grid-row: span 2;	
+  }
+      li:nth-child(32) {
+	grid-column: span 3;  
+}
+  
+  .grid-container {
+ 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px,2fr));
+  grid-gap: 2rem;
+}
+
+img {
+  box-sizing: border-box;
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  padding: 3px;
+ 
+}
+</style>
+ 	
+</head>
+
+<body>
+<ul class="grid-container">
+  <li>One <img src="media/mermay1.jpg" alt="Mermaid with horses in sea waves" /></li>
+  <li>Two <img src="media/mermay2.jpg" alt="Mermaid swimming amongst coral" /></li>
+  <li>Three <img src="media/mermay3.jpg".jpg" alt="Mermaid royalty" /></li>
+  <li>Four <img src="media/mermay4.jpg" alt="Starwars - mermaid dreaming Eagle Nebula" /></li>
+  <li>Five <img src="media/mermay5.jpg" alt="Mermaid with shy octopus in cockle shell" /></li>
+  <li>Six <img src="media/mermay6.jpg" alt="Mermaid with shell horns" /></li>
+  <li>Seven <img src="media/mermay7.jpg" alt="mermaid caught in fishingnet with plastic bottles" /></li>
+  <li>Eight <img src="media/mermay8.jpg" alt="Tropical mermaid" /></li>
+  <li>Nine <img src="media/mermay9.jpg" alt="" /></li>
+  <li>Ten <img src="media/mermay10.jpg" alt="" /></li>
+  <li>Eleven <img src="media/mermay11.jpg" alt="" /></li>
+  <li>Twelve <img src="media/mermay12.jpg" alt="" /></li>
+  <li>Thirteen <img src="media/mermay13.jpg" alt="" /></li> 
+  <li>Fourteen <img src="media/mermay14.jpg" alt="" /></li>
+  <li>Fifteen <img src="media/mermay15.jpg" alt="" /></li> 
+  <li>Sixteen <img src="media/mermay16.jpg" alt="" /></li>
+  <li>Seventeen <img src="media/mermay17.jpg" alt="" /></li> 
+  <li>Eighteen <img src="media/mermay18.jpg" alt="" /></li>
+  <li>Nineteen <img src="media/mermay19.jpg" alt="" /></li> 
+  <li>Twenty <img src="" alt="" /></li>
+  <li>Twentytwo <img src="" alt="" /></li> 
+  <li>Twentythree <img src="" alt="" /></li>
+  <li>Twentyfive <img src="" alt="" /></li> 
+  <li>Twentysix <img src="" alt="" /></li>
+  <li>Twentytseven <img src="" alt="" /></li> 
+  <li>Twentyeight <img src="" alt="" /></li>
+  <li>Twentynine <img src="" alt="" /></li> 
+  <li>Thirty <img src="" alt="" /></li>
+  <li>Thirtyone <img src="" alt="" /></li>
+</ul>
+</body>
+</html>
