@@ -251,10 +251,12 @@ li {
   list-style-type: none;
   font-weight: bold;
   font-size: 4rem;
-  position: relative; }
+  position: relative;
+  opacity: 0.75; }
 
 li:focus {
-  border: 10px solid #6699cc; }
+    border: 10px solid seagreen;
+    opacity: 1.0; }
 
 span {
   position: absolute;
